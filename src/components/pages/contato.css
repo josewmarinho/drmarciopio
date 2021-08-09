@@ -1,0 +1,241 @@
+.containerContato{
+   max-width: 500px;
+   margin: 0 auto;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.containerContato  .heroContato h1{
+
+   font-size: 3rem;
+   font-weight: 900;
+}
+
+.containerContato img {
+   border-radius: 20px;
+   width: 100%;
+   height: 100%;
+   margin: 2rem;
+}
+
+.containerContato .heroContato{
+   margin-top: 2rem;
+   display: flex;
+   flex-direction: column;
+}
+
+/* ### LINKK1 */
+
+.containerContato .heroContato .linkk{
+   margin: 1rem 0; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-decoration: none;
+   color: #000000;
+   transition: 0.2s;
+   flex-direction: row;
+   border-radius: 10px;
+   border: 1px solid #c4c4c4;
+   max-width: 300px;
+
+}
+
+.containerContato .heroContato .linkk:hover{
+   color: #0f97af;
+
+}
+.containerContato .heroContato .linkk svg{
+   width: 30px;
+   height: 30px;
+   margin-top: 1rem;
+   margin-right: 1rem;
+   margin-bottom: 1rem;
+}
+
+.containerContato .heroContato .linkk h2{
+   font-size: 1.5rem;
+}
+
+/* ### LINKK2 */
+
+.containerContato .heroContato .linkk2{
+   margin: 1rem 0; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-decoration: none;
+   color: #000000;
+   transition: 0.2s;
+   flex-direction: row;
+   border-radius: 10px;
+   border: 1px solid #c4c4c4;
+   max-width: 300px;
+
+}
+
+.containerContato .heroContato .linkk2:hover{
+   color: #0f97af;
+
+}
+.containerContato .heroContato .linkk2 svg{
+   width: 30px;
+   height: 30px;
+   margin-top: 1rem;
+   margin-right: 1rem;
+   margin-bottom: 1rem;
+}
+
+.containerContato .heroContato .linkk2 h2{
+   font-size: 1.5rem;
+
+}
+/* ### LINKK3 */
+.containerContato .heroContato .linkk3{
+   margin: 1rem 0; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-decoration: none;
+   color: #000000;
+   transition: 0.2s;
+   flex-direction: row;
+   border-radius: 10px;
+   border: 1px solid #c4c4c4;
+   max-width: 360px;
+
+}
+
+.containerContato .heroContato .linkk3:hover{
+   color: #0f97af;
+
+}
+.containerContato .heroContato .linkk3 svg{
+   width: 30px;
+   height: 30px;
+   margin-top: 1rem;
+   margin-right: 1rem;
+   margin-bottom: 1rem;
+}
+
+.containerContato .heroContato .linkk3 h2{
+   font-size: 1rem;
+
+}
+/* ### LINKK4 */
+.containerContato .heroContato .linkk4{
+   margin: 1rem 0; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-decoration: none;
+   color: #000000;
+   transition: 0.2s;
+   flex-direction: row;
+   border-radius: 10px;
+   border: 1px solid #c4c4c4;
+   max-width: 400px;
+
+}
+
+.containerContato .heroContato .linkk4:hover{
+   color: #0f97af;
+
+}
+.containerContato .heroContato .linkk4 svg{
+   width: 30px;
+   height: 30px;
+   margin-top: 1rem;
+   margin-right: 1rem;
+   margin-bottom: 1rem;
+}
+
+.containerContato .heroContato .linkk4 h2{
+   font-size: 1rem;
+}
+/* ### LINKK5 */
+.containerContato .heroContato .linkk5{
+   margin: 2rem 0; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-decoration: none;
+   color: #000000;
+   transition: 0.2s;
+   flex-direction: row;
+   border-radius: 10px;
+   border: 1px solid #c4c4c4;
+   max-width: 250px;
+
+}
+
+.containerContato .heroContato .linkk5:hover{
+   color: #0f97af;
+
+}
+.containerContato .heroContato .linkk5 svg{
+   width: 30px;
+   height: 30px;
+   margin-top: 1rem;
+   margin-right: 1rem;
+   margin-bottom: 1rem;
+}
+
+.containerContato .heroContato .linkk5 h2{
+   font-size: 1.5rem;
+}
+/* ### LINKK6 */
+.containerContato .heroContato .linkk6{
+   margin: 1rem 0; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-decoration: none;
+   color: #000000;
+   transition: 0.2s;
+   flex-direction: row;
+   border-radius: 10px;
+   border: 1px solid #c4c4c4;
+   max-width: 250px;
+
+
+}
+
+.containerContato .heroContato .linkk6:hover{
+   color: #0f97af;
+
+}
+.containerContato .heroContato .linkk6 svg{
+   width: 30px;
+   height: 30px;
+   margin-top: 1rem;
+   margin-right: 1rem;
+   margin-bottom: 1rem;
+}
+
+.containerContato .heroContato .linkk6 h2{
+   font-size: 1.5rem;
+
+}
+
+@media screen and (min-width: 700px) {
+   .containerContato {
+      max-width: 900px;
+      margin: 0 auto;
+   
+      display: flex;
+      flex-direction: row;
+   }
+
+   .containerContato img {
+      margin-top: 9rem;
+      margin-bottom: 1rem;
+      margin-left: 2rem;
+
+      
+      border-radius: 20px;
+   }
+
+}

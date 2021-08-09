@@ -1,0 +1,68 @@
+.containerClinica {
+   max-width: 400px;
+   margin: 0 auto;
+
+   display: flex;
+   flex-direction: column;
+   text-align: justify; 
+}
+
+.containerClinica .heroClinica {
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: justify; 
+   margin-top: 2rem;
+}
+
+.containerClinica h1 {
+   font-weight: 900;
+   font-size: 2rem;
+   margin-top: 1.8rem;
+   color: #0A0000;
+}
+.containerClinica p {
+   margin-left: 0.5rem;
+   margin-right: 0.5rem;
+   padding-left: 1rem;
+   padding-right: 1rem;
+   margin-top: 2rem;
+   line-height: 1.5rem;
+
+}.containerClinica p:last-child {
+   margin-bottom: 3rem;
+   padding-bottom: 1rem;
+}
+
+.containerClinica img {
+   margin-top: 1rem;
+   margin-bottom: 2rem;
+   max-width: 400px;
+
+   width: 100%;
+   height: 100%;
+   border-radius: 15px;
+}
+
+@media screen and (min-width: 700px) {
+   .containerClinica {
+      max-width: 900px;
+      margin: 0 auto;
+   
+      display: flex;
+      flex-direction: row;
+      text-align: justify; 
+   }
+
+   .containerClinica img {
+      margin-top: 9rem;
+      margin-bottom: 1rem;
+      margin-left: 2rem;
+
+      
+      border-radius: 20px;
+   }
+
+}
