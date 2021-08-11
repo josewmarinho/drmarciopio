@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
-import { AiOutlineDoubleRight } from 'react-icons/ai';
+/* import { Link } from 'react-router-dom';
+import { AiOutlineDoubleRight } from 'react-icons/ai'; */
 
 
 
@@ -112,7 +112,7 @@ const ProductCard = styled.div`
 
    } */
 `;
-
+/* 
 const ProductInfo = styled.div`
    display: flex;
    flex-direction: column;
@@ -166,4 +166,4 @@ const MoreInfo = styled.div`
    &:hover {
     background-color: #48C857;
    }
-`;
+`; */
