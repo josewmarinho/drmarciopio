@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { AiOutlineDoubleRight } from 'react-icons/ai';
 
 
@@ -19,127 +19,82 @@ export default function Procedures() {
 
   return (
     <Container>
-      <ProceduresHeading>Cirurgias e Procedimentos</ProceduresHeading>
+      <h1>Cirurgias e Procedimentos</h1>
+
       <ProceduresWrapper>
         <ProductCard>
           <img src={Nose1} alt="" />
-          <ProductInfo>
-            <TextWrap>
-              <ProductTitle>Rinoplastia estética estruturada</ProductTitle>
-            </TextWrap>
-            <MoreInfo>
-              <Link to="/">Saiba mais</Link>
-              <AiOutlineDoubleRight />
-            </MoreInfo>
-          </ProductInfo>
         </ProductCard>
         <ProductCard>
-          <img src={Nose2} alt="" />
-          <ProductInfo>
-            <TextWrap>
-              <ProductTitle>Rinoplastia aberta e fechada</ProductTitle>
-            </TextWrap>
-            <MoreInfo>
-              <Link to="/">Saiba mais</Link>
-              <AiOutlineDoubleRight />
-            </MoreInfo>
-          </ProductInfo>
+        <img src={Nose2} alt="" />
+
         </ProductCard>
         <ProductCard>
-          <img src={Nose3} alt="" />
-          <ProductInfo>
-            <TextWrap>
-              <ProductTitle>Septoplastia Extracorpórea</ProductTitle>
-            </TextWrap>
-            <MoreInfo>
-              <Link to="/">Saiba mais</Link>
-              <AiOutlineDoubleRight />
-            </MoreInfo>
-          </ProductInfo>
+        <img src={Nose3} alt="" />
+
         </ProductCard>
         <ProductCard>
-          <img src={Nose4} alt="" />
-          <ProductInfo>
-            <TextWrap>
-              <ProductTitle>Sinusectomias endonasais</ProductTitle>
-            </TextWrap>
-            <MoreInfo>
-              <Link to="/">Saiba mais</Link>
-              <AiOutlineDoubleRight />
-            </MoreInfo>
-          </ProductInfo>
+        <img src={Nose4} alt="" />
+
         </ProductCard>
         <ProductCard>
-          <img src={Nose5} alt="" />
-          <ProductInfo>
-            <TextWrap>
-              <ProductTitle>Septoplastia</ProductTitle>
-            </TextWrap>
-            <MoreInfo>
-              <Link to="/">Saiba mais</Link>
-              <AiOutlineDoubleRight />
-            </MoreInfo>
-          </ProductInfo>
+        <img src={Nose5} alt="" />
+
         </ProductCard>
         <ProductCard>
-          <img src={Ouvido6} alt="" />
-          <ProductInfo>
-            <TextWrap>
-              <ProductTitle>Otoplastia</ProductTitle>
-            </TextWrap>
-            <MoreInfo>
-              <Link to="/">Saiba mais</Link>
-              <AiOutlineDoubleRight />
-            </MoreInfo>
-          </ProductInfo>
+        <img src={Ouvido6} alt="" />
+
         </ProductCard>
-      </ProceduresWrapper> 
+
+      </ProceduresWrapper>
     </Container>
   );
 };
 
 const Container = styled.div`
-   max-width: 1200px;
-   display:flex;
+   max-width: 300px;
    margin: 0 auto;
+   display:flex;
    align-items: center;
    justify-content: center;
    flex-direction: column;
    padding-bottom: 2rem;
+     h1 {
+      font-size: clamp(2rem, 5vw, 3rem);
+      padding-top: 3rem;
+      text-align: center;
+      margin-bottom: 3rem;
+      font-weight: bold;
+      color: #000;
+   }
+   @media screen and (min-width: 868px) {
+      max-width: 1200px;
+   }
 
-`;
-
-const ProceduresHeading = styled.div`
-   font-size: clamp(2rem, 5vw, 3rem);
-   padding-top: 3rem;
-   text-align: center;
-   margin-bottom: 3rem;
-   font-weight: bold;
-   color: #000;
 `;
 
 const ProceduresWrapper = styled.div`
-   display: grid;
-   gap: 0.5rem;
-   grid-template-columns: repeat(3, 2fr);
-   justify-content: center;
 
-   @media screen and (max-width: 868px) {
-      grid-template-columns: 1fr;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+
+   @media screen and (min-width: 868px) {
+      display: grid;
+      grid-template-columns: repeat(3, 2fr);
+      gap: 1rem;
    }
    
 `;
 
 const ProductCard = styled.div`
-   width: 100%;
-   position: relative;
    border-radius: 10px;
    transition: 0.2s ease;
    margin: 10px;
    img {
-      height: 100%;
-      max-width: 100%;
-      position: relative;
+      width: 300px;
+      height: 500px;
       border-radius: 10px;
       filter: brightness(70%);
       transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -150,10 +105,12 @@ const ProductCard = styled.div`
       
     }  
 
-    @media screen and (max-width: 868px) {
+ /*    @media screen and (min-width: 868px) {
       padding-left: 1.5rem;
       padding-right: 1.5rem;
-   }
+
+
+   } */
 `;
 
 const ProductInfo = styled.div`

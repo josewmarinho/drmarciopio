@@ -11,15 +11,15 @@ export default function Adds() {
     <Container>
       <Wrapper>
         <img src={CirurgiasImg} alt="" />
-        <h1>+500 procedimentos realizadas</h1>
+        <h1>+1.000 procedimentos realizadas</h1>
       </Wrapper>
       <Wrapper>
         <img src={TempoImg} alt="" />
-        <h1>+5 mil horas em cirurgias</h1>
+        <h1>+10.000 horas em cirurgias</h1>
       </Wrapper>
       <Wrapper>
         <img src={PacientesImg} alt="" />
-        <h1>+500 sonhos concretizados</h1>
+        <h1>+1.000  sonhos concretizados</h1>
       </Wrapper>
 
 
