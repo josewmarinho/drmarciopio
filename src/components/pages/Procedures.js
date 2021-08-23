@@ -55,6 +55,7 @@ const Container = styled.div`
    max-width: 300px;
    margin: 0 auto;
    display:flex;
+   width: 100vh;
    align-items: center;
    justify-content: center;
    flex-direction: column;
