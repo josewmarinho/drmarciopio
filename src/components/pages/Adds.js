@@ -15,7 +15,7 @@ export default function Adds() {
       </Wrapper>
       <Wrapper>
         <img src={TempoImg} alt="" />
-        <h1>+10.000 horas em cirurgias</h1>
+        <h1>+10.000 horas de cirurgias</h1>
       </Wrapper>
       <Wrapper>
         <img src={PacientesImg} alt="" />
