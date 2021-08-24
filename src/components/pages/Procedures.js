@@ -7,11 +7,11 @@ import { AiOutlineDoubleRight } from 'react-icons/ai'; */
 
 
 import Nose1 from '../../images/nose-1.jpg';
-import Nose2 from '../../images/nose-2.jpg';
-import Nose3 from '../../images/nose-3.jpg';
+import Nose2 from '../../images/nose-2-1.jpg';
+import Nose3 from '../../images/nose-3-1.jpg';
 import Nose4 from '../../images/nose-4.jpg';
-import Nose5 from '../../images/nose-5.jpg';
-import Ouvido6 from '../../images/ouvido.jpg';
+import Nose5 from '../../images/nose-5-1.jpg';
+import Ouvido6 from '../../images/ouvido-1.jpg';
 
 
 

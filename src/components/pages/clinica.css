@@ -16,6 +16,7 @@
    flex-direction: column;
    text-align: justify; 
    margin-top: 2rem;
+   width: 350px;
 }
 
 .containerClinica h1 {

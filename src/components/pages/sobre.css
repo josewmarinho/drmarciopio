@@ -39,8 +39,8 @@
 }
 
 .containerSobre img {
-   margin-top: 1rem;
-   margin-bottom: 2rem;
+   margin-top: 2rem;
+   margin-bottom: 1rem;
    max-width: 400px;
 
    width: 100%;
@@ -58,12 +58,10 @@
       text-align: justify; 
    }
 
+
    .containerSobre img {
-      margin-top: 9rem;
       margin-bottom: 1rem;
       margin-left: 2rem;
-
-
       border-radius: 20px;
    }
 

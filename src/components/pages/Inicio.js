@@ -1,6 +1,6 @@
 import React from 'react';
 import './inicio.css';
-import { GoLocation } from 'react-icons/go'
+/* import { GoLocation } from 'react-icons/go' */
 
 import Procedures from './Procedures'
 import Adds from './Adds'
@@ -22,10 +22,10 @@ export default function Inicio() {
           <article className="heroitens">
             <h1>Transformando sonhos</h1>
             <p>Em realidade</p>
-            <div className="buttonlocation">
+{/*             <div className="buttonlocation">
               <GoLocation />
               <a target="_blank" rel="noopener noreferrer" href="https://goo.gl/maps/fZZAzETd9HW9gMms9">Localização</a>
-            </div>
+            </div> */}
           </article>
         </aside>
       </main>

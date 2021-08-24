@@ -71,11 +71,15 @@
    margin-bottom: 1.5rem;
    letter-spacing: 3px;
    padding: 0 1rem;
+   font-family: Montserrat, sans-serif;
+   font-weight: 700;
 }
 
 .inicio-container .herocontent .heroitens p{
   font-size: clamp(1.5rem, 3vw, 3rem);
    margin-bottom: 2rem;
+   font-family: Montserrat, sans-serif;
+
 }
 
 .inicio-container .herocontent .heroitens .buttonlocation{
