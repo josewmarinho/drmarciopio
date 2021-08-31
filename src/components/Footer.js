@@ -58,20 +58,3 @@ export default function Footer() {
       </>
    );
 }
-
-
-
-
-{/*        <div >
-
-                  
-                  <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/drmarciopio/" >
-                     <FaFacebookF />
-                     <h2>Facebook</h2>
-                  </a>
-                  <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/drmarciopio/" >
-                     <FaInstagram />
-                     <h2>Instagram</h2>
-                  
-                  
-               </div> */}
