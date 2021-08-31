@@ -17,6 +17,7 @@ export default function Sobre() {
             <p>Para estar sempre contribuindo para o aprimoramento de técnicas e para a evolução da sua especialidade, Dr Marcio Pio é Membro Titular da Associação Brasileira de Otorrinolaringologia e Cirurgia Cérvico Facial – ABORL-CCF e Membro Titular da Academia Brasileira de Cirurgia Plástica da Face – ABCPF.  Na Associação e na Academia, comprova, participa e desenvolve um trabalho voltado a ética e ao respeito a sua profissão.</p>
             <p>Dessa forma, o Dr. Marcio Pio se orgulha em desenvolver um trabalho sério, dedicado à qualidade de vida de muitos pacientes ao longo de quase 20 anos de trabalho, onde a arte em Rinoplastia na Cirurgia Estética e Funcional do Nariz e orelha tem sido sua missão.</p>
           </div>
+          
           <img src={ImgMarcioSobre} alt="Dr. Marcio Pio" />
 
         </section>
