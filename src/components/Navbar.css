@@ -46,7 +46,7 @@
 }
 
 .nav-links:hover {
-  background-color: #53b9c0;
+  background-color: #006eb7;
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }
@@ -104,7 +104,7 @@
   }
 
   .nav-links:hover {
-    background-color: #0BF0FF;
+    background-color: #006eb7;
     border-radius: 0;
   }
 
@@ -127,12 +127,12 @@
     cursor: pointer;
   }
   .menu-icon svg {
-    color: #0BF0FF;
+    color: #006eb7;
     font-size: 2rem;
     transition: 0.2;
   }
   .menu-icon svg:hover{
-    color: #53b9c0;
+    color: rgb(10, 231, 247);
   }
 
   .nav-links-mobile {

@@ -4,6 +4,7 @@ import './inicio.css';
 
 import Procedures from './Procedures'
 import Adds from './Adds'
+import Sobre from './Sobre'
 
 
 import Video from '../../images/movie-1.mp4';
@@ -30,6 +31,7 @@ export default function Inicio() {
         </aside>
       </main>
       <Adds />
+      <Sobre />
       <Procedures />
     </>
   );

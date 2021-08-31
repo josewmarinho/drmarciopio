@@ -6,7 +6,7 @@ import './Button.css';
 
 export function Button() {
   return (
-    <a className='ancora' target="_blank" rel="noopener noreferrer" href="https://web.whatsapp.com/send?phone=558698512283">
+    <a className='ancora' target="_blank" rel="noopener noreferrer" href="https://wa.me/558698512283">
       <button className='btn'> {/* <AiOutlineWhatsApp /> */}Agendamentos</button>
     </a>
   );

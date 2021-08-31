@@ -1,242 +1,71 @@
-.containerContato{
-   max-width: 500px;
+.containerContato {
+   max-width: 350px;
    margin: 0 auto;
-   width: 100vh;
-
+   height: 60vh;
    display: flex;
-   justify-content: center;
    align-items: center;
    flex-direction: column;
-}
-.containerContato  .heroContato h1{
+   margin-top: 5rem;
 
-   font-size: 3rem;
-   font-weight: 900;
+}
+
+.containerContato .heroContato {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.containerContato .heroContato h1 {
+   font-size: 32px;
+}
+
+.containerContato .heroContato .content02 {
+   display: flex;
+   flex-direction: column;
+}
+.containerContato .heroContato .content01 {
+   margin-top: 14px;
+}
+
+.containerContato .heroContato  div a{
+   margin-top: 14px;
+   text-decoration: none;
+   font-size: 16px;
+   color: rgb(0, 0, 0);
+}
+.containerContato .heroContato  div a:hover{
+   
+   color: rgba(0, 0, 0, 0.534);
 }
 
 .containerContato img {
    border-radius: 20px;
-   width: 100%;
-   height: 100%;
-   margin: 2rem;
-}
-
-.containerContato .heroContato{
-   margin-top: 2rem;
-   display: flex;
-   flex-direction: column;
-}
-
-/* ### LINKK1 */
-
-.containerContato .heroContato .linkk{
-   margin: 1rem 0; 
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   text-decoration: none;
-   color: #000000;
-   transition: 0.2s;
-   flex-direction: row;
-   border-radius: 10px;
-   border: 1px solid #c4c4c4;
-   max-width: 300px;
-
-}
-
-.containerContato .heroContato .linkk:hover{
-   color: #0f97af;
-
-}
-.containerContato .heroContato .linkk svg{
-   width: 30px;
-   height: 30px;
-   margin-top: 1rem;
-   margin-right: 1rem;
-   margin-bottom: 1rem;
-}
-
-.containerContato .heroContato .linkk h2{
-   font-size: 1rem;
-}
-
-/* ### LINKK2 */
-
-.containerContato .heroContato .linkk2{
-   margin: 1rem 0; 
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   text-decoration: none;
-   color: #000000;
-   transition: 0.2s;
-   flex-direction: row;
-   border-radius: 10px;
-   border: 1px solid #c4c4c4;
-   max-width: 300px;
-
-}
-
-.containerContato .heroContato .linkk2:hover{
-   color: #0f97af;
-
-}
-.containerContato .heroContato .linkk2 svg{
-   width: 30px;
-   height: 30px;
-   margin-top: 1rem;
-   margin-right: 1rem;
-   margin-bottom: 1rem;
-}
-
-.containerContato .heroContato .linkk2 h2{
-   font-size: 1rem;
-
-}
-/* ### LINKK3 */
-.containerContato .heroContato .linkk3{
-   margin: 1rem 0; 
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   text-decoration: none;
-   color: #000000;
-   transition: 0.2s;
-   flex-direction: row;
-   border-radius: 10px;
-   border: 1px solid #c4c4c4;
-   max-width: 360px;
-
-}
-
-.containerContato .heroContato .linkk3:hover{
-   color: #0f97af;
-
-}
-.containerContato .heroContato .linkk3 svg{
-   width: 30px;
-   height: 30px;
-   margin-top: 1rem;
-   margin-right: 1rem;
-   margin-bottom: 1rem;
-}
-
-.containerContato .heroContato .linkk3 h2{
-   font-size: 1rem;
-
-}
-/* ### LINKK4 */
-.containerContato .heroContato .linkk4{
-   margin: 1rem 0; 
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   text-decoration: none;
-   color: #000000;
-   transition: 0.2s;
-   flex-direction: row;
-   border-radius: 10px;
-   border: 1px solid #c4c4c4;
-   max-width: 400px;
-
-}
-
-.containerContato .heroContato .linkk4:hover{
-   color: #0f97af;
-
-}
-.containerContato .heroContato .linkk4 svg{
-   width: 30px;
-   height: 30px;
-   margin-top: 1rem;
-   margin-right: 1rem;
-   margin-bottom: 1rem;
-}
-
-.containerContato .heroContato .linkk4 h2{
-   font-size: 1rem;
-}
-/* ### LINKK5 */
-.containerContato .heroContato .linkk5{
-   margin: 2rem 0; 
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   text-decoration: none;
-   color: #000000;
-   transition: 0.2s;
-   flex-direction: row;
-   border-radius: 10px;
-   border: 1px solid #c4c4c4;
-   max-width: 250px;
-
-}
-
-.containerContato .heroContato .linkk5:hover{
-   color: #0f97af;
-
-}
-.containerContato .heroContato .linkk5 svg{
-   width: 30px;
-   height: 30px;
-   margin-top: 1rem;
-   margin-right: 1rem;
-   margin-bottom: 1rem;
-}
-
-.containerContato .heroContato .linkk5 h2{
-   font-size: 1rem;
-}
-/* ### LINKK6 */
-.containerContato .heroContato .linkk6{
-   margin: 1rem 0; 
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   text-decoration: none;
-   color: #000000;
-   transition: 0.2s;
-   flex-direction: row;
-   border-radius: 10px;
-   border: 1px solid #c4c4c4;
-   max-width: 250px;
-
-
-}
-
-.containerContato .heroContato .linkk6:hover{
-   color: #0f97af;
-
-}
-.containerContato .heroContato .linkk6 svg{
-   width: 30px;
-   height: 30px;
-   margin-top: 1rem;
-   margin-right: 1rem;
-   margin-bottom: 1rem;
-}
-
-.containerContato .heroContato .linkk6 h2{
-   font-size: 1rem;
-
+   height: 250px;
+   width: 400px;
+   margin-top: 1.5rem;
+   margin-left: 0.5rem;
+   margin-right: 0.5rem;
 }
 
 @media screen and (min-width: 700px) {
    .containerContato {
-      max-width: 900px;
-      margin: 0 auto;
-   
-      display: flex;
+      max-width: 1200px;
       flex-direction: row;
+      justify-content: center;
+      align-items: start;
+   }
+
+   .containerContato .heroContato {
+      
+      margin-top: 2rem;
    }
 
    .containerContato img {
-      margin-top: 9rem;
-      margin-bottom: 1rem;
-      margin-left: 2rem;
-
-      
       border-radius: 20px;
+      height: 380px;
+      width: 560px;
+      margin-top: 2rem;
+      margin-left: 2rem;
+      margin-right: 0.5rem;
    }
-
 }

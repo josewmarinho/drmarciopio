@@ -2,6 +2,7 @@
    max-width: 350px;
    margin: 0 auto;
    width: 95vh;
+   height: 70vh;
 
    display: flex;
    flex-direction: column;
@@ -39,12 +40,11 @@
 }
 
 .containerClinica img {
-   margin-top: 1rem;
    margin-bottom: 2rem;
    max-width: 400px;
 
    width: 100%;
-   height: 100%;
+   height: 350px;
    border-radius: 15px;
 }
 
@@ -60,10 +60,7 @@
 
    .containerClinica img {
       margin-top: 9rem;
-      margin-bottom: 1rem;
-      margin-left: 2rem;
-
-      
+      margin-left: 3rem;
       border-radius: 20px;
    }
 
