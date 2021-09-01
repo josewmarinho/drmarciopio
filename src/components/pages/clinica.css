@@ -2,7 +2,6 @@
    max-width: 350px;
    margin: 0 auto;
    width: 95vh;
-   height: 70vh;
 
    display: flex;
    flex-direction: column;
@@ -52,6 +51,8 @@
    .containerClinica {
       max-width: 900px;
       margin: 0 auto;
+      height: 70vh;
+
    
       display: flex;
       flex-direction: row;

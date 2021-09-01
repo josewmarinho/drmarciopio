@@ -1,7 +1,6 @@
 .containerContato {
    max-width: 350px;
    margin: 0 auto;
-   height: 60vh;
    display: flex;
    align-items: center;
    flex-direction: column;
@@ -55,6 +54,8 @@
       flex-direction: row;
       justify-content: center;
       align-items: start;
+      height: 70vh;
+
    }
 
    .containerContato .heroContato {
